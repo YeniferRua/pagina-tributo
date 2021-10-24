@@ -1,3 +1,15 @@
-img {
-  border-radius: 400px;
+body {
+  background-color: darkgray;
 }
+
+img {
+  border-radius: 450px;
+}
+
+p {
+  max-width: 550px;
+  float: right;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+

@@ -2,33 +2,44 @@ body {
   background-color: rgb(53, 0, 0);
 }
 
-.hola {
+#header {
   font-size: 25px;
   font-style: italic;
   background-color: brown;
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 0px;
-  margin-bottom: 3px;
+  margin-bottom: 60px;
+}
+
+#footer {
+  font-size: 25px;
+  font-style: italic;
+  color: aliceblue;
+  background-color: brown;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 115px;
+  margin-bottom: 0px;
 }
 
 #hi {
   border-radius: 500px;
-  margin-left: 470px;
+  margin-left: 500px;
   margin-right: 250px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 #y {
-  margin-top: 5px;
-  margin-left: 500;
-  margin-right: 300px;
+  clip-path: inset(5% 18% 54% 0);
+  margin-left: 5px;
 }
 
-a {
+.Link {
+  text-decoration: none;
   font-style: italic;
-  color: rgb(22, 22, 22);
+  color: rgb(255, 255, 255);
   padding-right: 20px;
   padding-left: 20px;
   margin: 60px;
@@ -36,8 +47,44 @@ a {
   font-size: 30px;
   border-right: 2px solid;
   border-left: 2px solid;
+  border-color: aliceblue;
+}
+
+.Titulo_index {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(255, 255, 255);
+}
+
+#Github {
+  text-decoration: none;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+hr {
+  color: rgb(119, 57, 57);
+}
+
+div {
+  text-align: justify;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aliceblue;
 }
 
 h1 {
   text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+ul {
+  text-align: justify;
+  color: aliceblue;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
