@@ -2,7 +2,7 @@ body {
   background-color: darkgray;
 }
 
-img {
+#primera_img {
   border-radius: 450px;
 }
 
@@ -13,3 +13,13 @@ p {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 450px;
+}
+
+#segunda_img{
+  margin-top: 215px;
+  float: right;
+  clip-path: circle(32.2% at 51% 49%);
+}
